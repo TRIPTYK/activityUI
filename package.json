@@ -1,0 +1,18 @@
+{
+  "name": "invoicing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-live-server": "0.0.29",
+    "gulp-sass": "^2.1.0",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}

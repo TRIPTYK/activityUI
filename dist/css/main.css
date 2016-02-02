@@ -1,0 +1,92 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.container {
+  width: 1024px;
+  margin: 0 auto; }
+
+header {
+  background-color: #ccc; }
+
+.ui.text.menu {
+  background-color: #ccc;
+  margin: 0; }
+
+.ui.text.menu .item {
+  padding: 0 10px 0 0; }
+
+.ui.text.menu .item img {
+  margin: 0 0 0 50px;
+  padding: 0;
+  width: 5rem; }
+
+.ui.menu {
+  background-color: #ccc;
+  border: none;
+  box-shadow: none; }
+
+.userProfile {
+  margin: 25px 0; }
+  .userProfile .container > div {
+    display: inline-block;
+    vertical-align: middle; }
+    .userProfile .container > div h2 {
+      font-weight: 700;
+      font-size: 2.5rem; }
+  .userProfile .container > div:first-child {
+    margin-right: 25px; }
+
+.ui.horizontal.list > .item > .content {
+  display: inline-block; }
+
+.tabSection .container .tab header {
+  background-color: white; }
+  .tabSection .container .tab header i {
+    margin: 0 10px; }
+  .tabSection .container .tab header a {
+    text-decoration: none;
+    border-top: 3px solid #C07B40;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 0;
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0;
+    color: #000; }
+    .tabSection .container .tab header a:first-child {
+      border-right: 0;
+      border-top: 3px solid #4078c0; }
+    .tabSection .container .tab header a:last-child {
+      border-left: 0;
+      border-top: 3px solid #40C056; }
+
+.tabSection .container .tab > .content {
+  border-top: 1px solid #ccc; }
+  .tabSection .container .tab > .content > div {
+    display: none;
+    padding: 0.5em; }
+    .tabSection .container .tab > .content > div:first-child {
+      display: block; }
+    .tabSection .container .tab > .content > div .articles, .tabSection .container .tab > .content > div .notifications {
+      display: inline-block;
+      vertical-align: top;
+      margin: 20px 0; }
+    .tabSection .container .tab > .content > div .notifications {
+      float: right;
+      color: #afaaaa;
+      font-size: 0.9rem; }
+      .tabSection .container .tab > .content > div .notifications i {
+        font-size: 0.7rem; }
+    .tabSection .container .tab > .content > div .articles a h3 {
+      color: #4078c0;
+      padding-bottom: 15px; }
+    .tabSection .container .tab > .content > div .articles p {
+      padding-bottom: 5px; }
+    .tabSection .container .tab > .content > div .articles .date {
+      color: #afaaaa;
+      font-size: 0.75rem; }
