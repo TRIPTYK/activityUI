@@ -122,3 +122,41 @@ header {
 		}
 	}
 }
+.insideList {
+	margin-bottom: 50px;
+	.container {
+		a {
+			display: block;
+		}
+		i {
+			margin-right: 15px;
+			font-size: 2rem;
+		}
+		.breadcrumb {
+			margin-bottom: 40px;
+		}
+	}
+	.contentInsideList {
+		>div {
+			border: 1px solid #ddd;
+			border-bottom: none;
+			padding: 10px;
+		}
+		>div:last-child {
+			border-bottom: 1px solid #ddd;
+		}
+		h3 {
+			color: black;
+			font-size: 1.2rem;
+			i {
+				color: #ccc;
+				font-size: 1rem;
+			}
+		}
+		p {
+			margin: 0;
+			padding: 0 0 10px 30px;
+			color: #bbb;
+		}
+	}
+}

@@ -90,3 +90,29 @@ header {
     .tabSection .container .tab > .content > div .articles .date {
       color: #afaaaa;
       font-size: 0.75rem; }
+
+.insideList {
+  margin-bottom: 50px; }
+  .insideList .container a {
+    display: block; }
+  .insideList .container i {
+    margin-right: 15px;
+    font-size: 2rem; }
+  .insideList .container .breadcrumb {
+    margin-bottom: 40px; }
+  .insideList .contentInsideList > div {
+    border: 1px solid #ddd;
+    border-bottom: none;
+    padding: 10px; }
+  .insideList .contentInsideList > div:last-child {
+    border-bottom: 1px solid #ddd; }
+  .insideList .contentInsideList h3 {
+    color: black;
+    font-size: 1.2rem; }
+    .insideList .contentInsideList h3 i {
+      color: #ccc;
+      font-size: 1rem; }
+  .insideList .contentInsideList p {
+    margin: 0;
+    padding: 0 0 10px 30px;
+    color: #bbb; }
