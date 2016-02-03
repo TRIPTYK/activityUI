@@ -11,24 +11,30 @@ html {
   margin: 0 auto; }
 
 header {
-  background-color: #ccc; }
+  background-color: #aaa; }
+
+a:hover {
+  text-decoration: underline; }
 
 .ui.text.menu {
-  background-color: #ccc;
+  background-color: #aaa;
   margin: 0; }
 
 .ui.text.menu .item {
-  padding: 0 10px 0 0; }
+  padding: 10px 0; }
 
 .ui.text.menu .item img {
   margin: 0 0 0 50px;
-  padding: 0;
-  width: 5rem; }
+  padding: 0; }
 
 .ui.menu {
-  background-color: #ccc;
+  background-color: #aaa;
   border: none;
   box-shadow: none; }
+
+.ui.list .list > .item a, .ui.list > .item a {
+  cursor: pointer;
+  color: rgba(2, 2, 2, 0.87); }
 
 .userProfile {
   margin: 25px 0; }
@@ -50,7 +56,7 @@ header {
     margin: 0 10px; }
   .tabSection .container .tab header a {
     text-decoration: none;
-    border-top: 3px solid #C07B40;
+    border-top: 3px solid #4078c0;
     border-left: 1px solid #aaa;
     border-right: 1px solid #aaa;
     border-bottom: 0;
@@ -58,12 +64,6 @@ header {
     padding: 0.5em;
     margin: 0;
     color: #000; }
-    .tabSection .container .tab header a:first-child {
-      border-right: 0;
-      border-top: 3px solid #4078c0; }
-    .tabSection .container .tab header a:last-child {
-      border-left: 0;
-      border-top: 3px solid #40C056; }
 
 .tabSection .container .tab > .content {
   border-top: 1px solid #ccc; }
@@ -79,9 +79,9 @@ header {
     .tabSection .container .tab > .content > div .notifications {
       float: right;
       color: #afaaaa;
-      font-size: 0.9rem; }
+      font-size: 0.7rem; }
       .tabSection .container .tab > .content > div .notifications i {
-        font-size: 0.7rem; }
+        font-size: 0.9rem; }
     .tabSection .container .tab > .content > div .articles a h3 {
       color: #4078c0;
       padding-bottom: 15px; }
@@ -99,7 +99,7 @@ header {
     margin-right: 15px;
     font-size: 2rem; }
   .insideList .container .breadcrumb {
-    margin-bottom: 40px; }
+    margin: 40px 0; }
   .insideList .contentInsideList > div {
     border: 1px solid #ddd;
     border-bottom: none;
@@ -112,6 +112,17 @@ header {
     .insideList .contentInsideList h3 i {
       color: #ccc;
       font-size: 1rem; }
+    .insideList .contentInsideList h3 span {
+      float: right;
+      padding-right: 15px;
+      font-size: 0.9rem;
+      line-height: 0.9rem;
+      color: #aaa; }
+      .insideList .contentInsideList h3 span i {
+        padding: 0 5px 0 0;
+        margin: 0;
+        font-size: 0.9rem;
+        line-height: 0.9rem; }
   .insideList .contentInsideList p {
     margin: 0;
     padding: 0 0 10px 30px;

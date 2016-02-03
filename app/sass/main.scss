@@ -11,24 +11,31 @@ html {
 	margin: 0 auto;
 }
 header {
-	background-color: #ccc;
+	background-color: #aaa;
+}
+a:hover {
+	text-decoration: underline;
 }
 .ui.text.menu {
-	background-color: #ccc;
+	background-color: #aaa;
 	margin: 0;
 }
 .ui.text.menu .item {
-	padding: 0 10px 0 0;
+	padding: 10px 0;
 }
 .ui.text.menu .item img {
 	margin: 0 0 0 50px;
 	padding: 0;
-	width: 5rem;
+	// width: 5rem;
 }
 .ui.menu {
-	background-color: #ccc;
+	background-color: #aaa;
 	border: none;
 	box-shadow: none;
+}
+.ui.list .list>.item a, .ui.list>.item a {
+  cursor: pointer;
+  color: rgba(2,2,2,.87);
 }
 .userProfile {
 	margin: 25px 0;
@@ -59,7 +66,7 @@ header {
 				}
 				a {
 					text-decoration: none;
-					border-top: 3px solid #C07B40;
+					border-top: 3px solid #4078c0;
 					border-left: 1px solid #aaa;
 					border-right: 1px solid #aaa;
 					border-bottom: 0;
@@ -67,14 +74,14 @@ header {
 					padding: 0.5em;
 					margin: 0;
 					color: #000;
-					&:first-child {
-						border-right: 0;
-						border-top: 3px solid #4078c0;
-					}
-					&:last-child {
-						border-left: 0;
-						border-top: 3px solid #40C056;
-					}
+					// &:first-child {
+					// 	border-right: 0;
+					// 	border-top: 3px solid #4078c0;
+					// }
+					// &:last-child {
+					// 	border-left: 0;
+					// 	border-top: 3px solid #40C056;
+					// }
 				}
 			}
 			>.content {
@@ -97,9 +104,9 @@ header {
 					.notifications {
 						float: right;
 						color: #afaaaa;
-						font-size: 0.9rem;
+						font-size: 0.7rem;
 						i {
-							font-size: 0.7rem;
+							font-size: 0.9rem;
 						}
 					}
 					.articles {
@@ -123,6 +130,7 @@ header {
 	}
 }
 .insideList {
+	// display: none;
 	margin-bottom: 50px;
 	.container {
 		a {
@@ -133,7 +141,7 @@ header {
 			font-size: 2rem;
 		}
 		.breadcrumb {
-			margin-bottom: 40px;
+			margin: 40px 0;
 		}
 	}
 	.contentInsideList {
@@ -151,6 +159,21 @@ header {
 			i {
 				color: #ccc;
 				font-size: 1rem;
+			}
+			span {
+				float: right;
+				padding-right: 15px;
+				// vertical-align: baseline;
+				font-size: 0.9rem;
+				line-height: 0.9rem;
+				color: #aaa;
+				i {
+					padding: 0 5px 0 0;
+					margin: 0;
+					// vertical-align: center;
+					font-size: 0.9rem;
+					line-height: 0.9rem;
+				}
 			}
 		}
 		p {
